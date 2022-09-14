@@ -1,0 +1,138 @@
+header{
+    background: #D9CCC5;
+    padding: 50px 0;    
+}
+
+.caixa-navegaçao{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 220px;
+    right: 0;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 25px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:  #734A26;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #0D0D0D;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 5px solid #734A26;
+    border-radius: 15px 10px 15px 10px;
+}
+
+.produtos li:hover {
+    border-color: #0D0D0D;
+}
+
+.produtos li:active{
+    border-color: #D9CCC5;
+}
+
+.produtos li:hover h2{
+    font-size: 30px;
+}
+
+body {
+    
+}
+
+.imagemPrincipal {
+    height: 500px;
+    background-image: url("https://images.unsplash.com/photo-1621605817954-50992699848a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2080&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.principal{
+    background: #BFA893;
+    color: #402A17;
+    padding: 30px;
+}
+
+.tituloPrincipal{
+    color: #402F21;
+    padding-left: 20px;
+}
+
+.tituloCentralizado{
+    text-align:center ;
+}
+
+
+p {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+em strong {
+    color: #260B01;
+}
+
+
+.listaItens{
+    font-style: italic;
+}  
+
+.beneficios{
+    background: #ffffff;
+    color: #402A17;
+    padding: 20px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+}
+
+.imagemBeneficios{
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.png.png");
+    padding: 50px 0;
+}
+
+
+.copyright {
+    color: #D9CCC5;
+    font-size: 15px;
+    margin-top: 20px;
+}
